@@ -1,0 +1,70 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+h1{
+    color: rgb(59, 108, 92);
+}
+.h_inputContainer{
+    background-color: rgba(244, 246, 248, 0.523);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 8px 8px 13px 4px rgba(8, 41, 19, 0.5);
+    margin: 5%;
+}
+button{
+    background-color: rgb(230, 90, 90);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    /* box-shadow: 3px 3px 5px 1px rgba(8, 41, 19, 0.5);   */
+    box-shadow: inset 8px 8px 13px 4px rgba(0, 0, 0, 0.5);
+      
+}
+button:hover{
+    background-color: rgb(35, 147, 56);
+}
+.raceRoad{
+    right: 0;
+    left: 0;
+}
+.raceRoad{
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    border: 2px, solid, rgb(35, 147, 56);
+    margin: 2.5%;
+    height: 20%;
+}
+.icon{
+    height: 30px;
+    position: relative;
+}
+.scoreLine1{
+    background-color: rgba(235, 237, 116, 0.994);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1%;
+}
+.scoreLine2{
+    background-color: rgba(235, 235, 232, 0.994);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1%;
+}
+.scoreLine3{
+    background-color: rgba(79, 38, 38, 0.645);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1%;
+}
+.scoreLine4{
+    display: none;
+    background-color: rgb(5, 5, 5);
+    color: beige;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1%;
+}
